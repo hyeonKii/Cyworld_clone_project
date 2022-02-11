@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+    <link href="./final.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class= "background">
+        <div class= "outerbox">
+            <div class="wrapper">
+                <div class="group1">
+                    <div class="signup__title">
+                        코드캠프 회원가입   
+                    </div>
+                    <div class="group__email">    
+                        <input class="mail" type="text" placeholder="이메일을 입력해주세요."><br /><br />
+                    </div>
+                </div>        
+                <div class="group2">
+                    <div class="group__name">
+                        <input class="mail" type="text" placeholder="이름을 입력해주세요."><br /><br />
+                           
+                    </div>
+                    <div class="group__password">
+                        <input class="pw" type="password" placeholder="비밀번호를 입력해주세요."><br /><br />
+                        
+                    </div>
+                    <div class="group__pw__correct">
+                        <input class="pw" type="password" placeholder="비밀번호를 다시 입력해주세요."><br /><br />
+                    </div>
+                </div>
+                <div class="group3">
+                    <div class="phone__number">
+                        <input id="phone1" type="text" oninput="changeFocus1()" maxlength="3"> -
+                        <input id="phone2" type="text" oninput="changeFocus2()" maxlength="4"> -
+                        <input id="phone3" type="text" maxlength="4">
+                    </div>
+                    
+                    <div class = "certificate">
+                        <div id="auth">000000</div>
+                        <button id="send" onclick="pressedBtn()">인증번호 전송</button>
+                    </div>
+                    <div class = "certificate">
+                        <div id="countdown">3:00</div>
+                        <button id="finish">인증완료</button>
+                    </div>    
+                </div>
+                    <div class="gender__select">
+                        <input type="radio" name="gender"> 여성
+                        <input type="radio" name="gender"> 남성
+                    </div>
+                <div class="group6">
+                    <div class="private">
+                        
+                    </div>
+                    <div class="divideLine__2"></div>
+                    <button class="button" onclick="">가입하기</button>                
+                </div>                                             
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

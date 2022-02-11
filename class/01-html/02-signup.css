@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 회원가입 백그라운드 */
+.background {
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+
+/* 회원가입 틀 */
+.outerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 670px;
+    height: 960px;
+    top: 60px;
+    left: 625px;
+    border-radius: 20px;
+    border: 1px solid #AACDFF;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 100px 70px 100px;
+}
+
+.group1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 470px;
+    height: 214px;
+    left: 725px;
+    top: 132px;         
+}
+
+.signup__title {
+    width: 466px;
+    height: 94px;
+    left: 725px;
+    top: 132px;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 47px;
+    color: #0068FF;
+}
+
+.group__email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 466px;
+    height: 80px;
+    left: 725px;
+    top: 286px;
+}
+
+.email__title {
+    width: 158px;
+    height: 23.65px;
+    left: 725px;
+    top: 286px;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+}
+
+.divideLine__1 {
+    width: 466px;
+    height: 0px;
+    border: 1px solid #0068FF;
+}
+
+.group2 {
+    margin-top: 15px;
+    width: 466px;
+    height: 280px;
+    left: 725px;
+    top: 387px;
+}
+
+.group__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 466px;
+    height: 80px;
+    left: 725px;
+    top: 387px;
+}
+
+.name__title {
+    width: 158px;
+    height: 23.65px;
+    left: 725px;
+    top: 387px;
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+}
+
+.divideLine__2 {
+    width: 466px;
+    height: 0px;
+    border: 1px solid gray;
+}
+
+
+.group__password {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 466px;
+    height: 80px;
+    left: 725px;
+    top: 488px;
+
+}
+
+.pw__title {
+    width: 158px;
+    height: 23.65px;
+    left: 725px;
+    top: 488px;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+}
+
+.group__pw__correct {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 466px;
+    height: 80px;
+    left: 725px;
+    top: 589px;
+}
+
+.pwc__title {
+    width: 158px;
+    height: 23.65px;
+    left: 725px;
+    top: 589px;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+}
+
+.gender__select {
+    margin-left: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 466px;
+    height: 80px;
+    left: 725px;
+    top: 689px;
+}
+
+
+.group6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 470px;
+    height: 157px;
+    left: 725px;
+    top: 789px;
+}
+
+.private {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.button {
+    width: 470px;
+    height: 75px;
+    left: 725px;
+    top: 875px;
+    background-color: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #0068FF;
+}
+
+.mail{ 
+    background-color: red;
+}
+
+.pw{
+    background-color: rebeccapurple;
+    
+}        
